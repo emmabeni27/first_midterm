@@ -8,7 +8,6 @@ public class Ejercicio3_9 {
     @Test
     public void Ejercicio3_9(){
         String input ="1+2)*3-4)*5-6)))";
-        String result ="";
         String a="";
         String b="";
         String c="";

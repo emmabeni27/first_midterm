@@ -36,13 +36,13 @@ public class Ejercicio3_29 <E>{
         if(isEmpty()){
            throw new NoSuchElementException("Empty");
         }
-            Node<E> toDelete=last.next;
+            Node<E> toDelete=last.next; //por se queue
         if(size==1){
             last=null;
         }
         else{
 
-           last.next=toDelete.next;
+           last.next=toDelete.next; //last.next.next
 
         }
             return toDelete.item;
